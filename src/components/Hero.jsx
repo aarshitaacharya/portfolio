@@ -45,8 +45,8 @@ const Hero = () => {
             className="absolute -top-20 left-6 w-20 md:-top-40 md:-left-10 md:w-40 z-10"
           />
 
-          <h1 className="text-5xl md:text-6xl font-semibold leading-snug font-display text-black">
-            I design ✍🏻 top <br />
+          <h1 className="text-5xl md:text-6xl mt-5 font-semibold leading-snug font-display text-black">
+            I build ✍🏻 top <br />
             notch{' '}
             <span className="relative inline-block px-1">
               <span className="absolute inset-0 bg-yellow-300 h-1/2 top-1/2 z-0 rounded-sm"></span>

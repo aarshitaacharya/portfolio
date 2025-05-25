@@ -88,7 +88,7 @@ const Contact = () => {
               className="w-full border-2 border-black px-4 py-2 rounded focus:outline-none"
             />
 
-            <div className="text-center relative inline-block">
+            <div className="text-center relative">
               <button
                 type="submit"
                 className="bg-[#C0E8FF] text-black font-semibold px-6 py-3 rounded-full border-2 border-black hover:bg-blue-300 transition-all"
