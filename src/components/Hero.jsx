@@ -4,7 +4,6 @@ import Rectange from '../assets/doodles/Rectangle.svg'
 import ExplosionStar from '../assets/doodles/Explosion-star.svg'
 import NameTag from '../assets/doodles/Name.svg'
 import PinkStar from '../assets/doodles/Pink-Star-Bottom.svg'
-import PinkStarTop from '../assets/doodles/Pink-Star-Top.svg'
 import RedStar from '../assets/doodles/Red-Star.svg'
 import Arrow from '../assets/doodles/Arrow.svg'
 
@@ -20,17 +19,17 @@ const Hero = () => {
 
       <img src = {PinkStar}
       alt = "star"
-      className='absolute bottom-0 left-0 w-12 md:bottom-0 md:left-0 md:w-16 z-0'
+      className='absolute bottom-10 left-0 w-12 md:bottom-10 md:left-0 md:w-16 z-0'
       />
 
-      <img src = {PinkStarTop}
+      <img src = {PinkStar}
       alt = "star"
-      className='absolute top-0 right-0 w-12 md:top-0 md:right-0 md:w-16 z-0'
+      className='absolute top-0 right-0 w-12 md:top-10 md:right-0 md:w-16 z-0 rotate-[180deg]'
       />
 
       <img src = {RedStar}
       alt = "star"
-      className='absolute bottom-0 right-0 w-12 md:bottom-0 md:right-40 md:w-24 z-0'
+      className='absolute bottom-20 right-0 w-12 md:bottom-20 md:right-40 md:w-24 z-0'
       />
 
 
@@ -105,7 +104,7 @@ const Hero = () => {
         <img 
           src={Rectange}
           alt="hero illustration"
-          className="w-[80%] max-w-[300px] sm:max-w-[380px]"
+          className="w-[85%] max-w-[300px] sm:max-w-[380px]"
         />
       </div>
 
