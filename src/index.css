@@ -1,3 +1,90 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.projects-section {
+  background-color: #fefef0;
+  padding: 3rem 1rem;
+  text-align: center;
+}
+
+.section-heading {
+  width: 300px;
+  margin: 0 auto 2.5rem auto;
+  display: block;
+}
+
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  max-width: 700px;
+  margin: 0 auto;
+  gap: 2rem;
+  justify-items: center;
+}
+
+
+.project-card {
+  position: relative;
+  background: white;
+  border: 2px solid black;
+  padding: 1rem;
+  width: 100%;
+  max-width: 320px;
+  box-shadow: 6px 6px 0px black;
+  text-align: left;
+}
+
+.project-img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  display: absolute;
+  margin: 0 auto 1rem auto;
+  border: none;
+}
+
+
+.project-info {
+  position: relative;
+}
+
+.project-info h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.project-info p {
+  font-size: 0.9rem;
+  color: #333;
+  margin-top: 0.25rem;
+}
+
+.external-link {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 1.2rem;
+  text-decoration: none;
+  border: 2px solid black;
+  padding: 2px 6px;
+  background: white;
+  box-shadow: 2px 2px 0px black;
+}
+
+.disabled-link {
+  opacity: 0.5;
+  pointer-events: none;
+  cursor: not-allowed;
+}
+
+.section-subtitle {
+  font-size: 1rem;
+  color: #444;
+  font-style: italic;
+  margin-top: -1.2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}

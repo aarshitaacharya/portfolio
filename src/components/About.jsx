@@ -4,7 +4,7 @@ import Bulb from '../assets/doodles/Bulb.svg';
 
 const About = () => {
   return (
-    <section id="about" className="bg-[#FFF8E1] py-16 px-6 md:px-20">
+    <section id="about" className="bg-[#fefef0] py-16 px-6 md:px-20">
       <div className="max-w-6xl mx-auto">
 
         {/* Section Heading */}
@@ -23,7 +23,7 @@ const About = () => {
             </p>
 
             <p className="text-black text-base mb-4 text-justify">
-              I’ve worked on backend systems at <strong>Goldman Sachs</strong>, contributed to product innovation at a <strong>IDO - a robotics startup</strong>, and presented ideas on national platforms like Shark Tank.
+              I’ve worked on backend systems at <strong>Goldman Sachs</strong>, contributed to product innovation at <strong>IDO - a robotics startup</strong>, and presented ideas on national platforms like Shark Tank.
               My work bridges solid engineering with end-user focus.
             </p>
 
@@ -37,11 +37,12 @@ const About = () => {
           </div>
 
           {/* Right: Image */}
-          <div className="relative">
+          <div className="flex justify-center">
+          <div className="relative w-fit">
             <img
               src={YourPhoto}
               alt="Aarshi"
-              className="border-4 border-black rounded-md w-full max-w-xs mx-auto shadow-[6px_6px_0px_0px_rgba(0,0,0,1)]"
+              className="border-4 border-black rounded-md w-full max-w-xs shadow-[6px_6px_0px_0px_rgba(0,0,0,1)]"
             />
             <img
               src={Bulb}
@@ -52,6 +53,9 @@ const About = () => {
               Open to Work
             </div>
           </div>
+        </div>
+
+
         </div>
       </div>
     </section>

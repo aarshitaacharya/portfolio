@@ -63,8 +63,10 @@ const Experience = () => {
   ];
 
   return (
-    <section id="experience" className="bg-[#FFF8E1] py-20 px-6 md:px-20">
+    <section id="experience" className="bg-[#FFF8E1] py-10 px-6 md:px-20">
       <h3 className="text-3xl font-display font-bold text-center mb-16">My Journey</h3>
+      <p class="section-subtitle">Some places where I left a trail of commits and caffeine!</p>
+
       <div className="relative max-w-6xl mx-auto">
         {/* Vertical line */}
         <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-black"></div>
