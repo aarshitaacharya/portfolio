@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.20f305b1.css",
+    "main.js": "/portfolio/static/js/main.d9c3e6d7.js",
+    "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
+    "static/media/Aarshita.jpeg": "/portfolio/static/media/Aarshita.39e11a95ef95aab655ab.jpeg",
+    "static/media/Rectangle.svg": "/portfolio/static/media/Rectangle.f91f56451a4aeadbc6aad5fab6701325.svg",
+    "static/media/Projects.svg": "/portfolio/static/media/Projects.61da502b09ac3f831a2c07d4eb6eba1d.svg",
+    "static/media/Bulb.svg": "/portfolio/static/media/Bulb.1380c62bb71c62c74879ad3388fde2bd.svg",
+    "static/media/Pink-Star-Bottom.svg": "/portfolio/static/media/Pink-Star-Bottom.a478173b58436e72c8b224cdb515724f.svg",
+    "static/media/Explosion-star.svg": "/portfolio/static/media/Explosion-star.53e4a1d2aefc8eddae603be15f638a52.svg",
+    "static/media/Red-Star.svg": "/portfolio/static/media/Red-Star.cbe3c1ce81697a90d38ad28c9155c87c.svg",
+    "static/media/Name.svg": "/portfolio/static/media/Name.49c26402b9c2a24147a9f10aebeb4a6f.svg",
+    "static/media/Arrow.svg": "/portfolio/static/media/Arrow.490e916ebbf3103b74c1913b5be80405.svg",
+    "static/media/3lines.svg": "/portfolio/static/media/3lines.6db732002f18038a88ab200ba98a39f7.svg",
+    "index.html": "/portfolio/index.html",
+    "static/media/Star.svg": "/portfolio/static/media/Star.8628ddbdf172752fd267fa49a41fd3ff.svg",
+    "main.20f305b1.css.map": "/portfolio/static/css/main.20f305b1.css.map",
+    "main.d9c3e6d7.js.map": "/portfolio/static/js/main.d9c3e6d7.js.map",
+    "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.20f305b1.css",
+    "static/js/main.d9c3e6d7.js"
+  ]
+}
