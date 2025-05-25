@@ -3,11 +3,36 @@ import Scribble from '../assets/doodles/3lines.svg'
 import Rectange from '../assets/doodles/Rectangle.svg'
 import ExplosionStar from '../assets/doodles/Explosion-star.svg'
 import NameTag from '../assets/doodles/Name.svg'
+import PinkStar from '../assets/doodles/Pink-Star-Bottom.svg'
+import PinkStarTop from '../assets/doodles/Pink-Star-Top.svg'
+import RedStar from '../assets/doodles/Red-Star.svg'
+import Arrow from '../assets/doodles/Arrow.svg'
 
 
 const Hero = () => {
   return (
-    <section className = "bg-[#FFF8E1] min-h-screen px-6 md:px-20 flex items-center">
+    <section className = "relative bg-[#FFF8E1] min-h-screen px-6 md:px-20 flex items-center">
+
+      <img src = {PinkStar}
+      alt= "star"
+      className='absolute top-0 left-0 w-12 md:top-0 md:left-0 md:w-16 z-0'
+      />
+
+      <img src = {PinkStar}
+      alt = "star"
+      className='absolute bottom-0 left-0 w-12 md:bottom-0 md:left-0 md:w-16 z-0'
+      />
+
+      <img src = {PinkStarTop}
+      alt = "star"
+      className='absolute top-0 right-0 w-12 md:top-0 md:right-0 md:w-16 z-0'
+      />
+
+      <img src = {RedStar}
+      alt = "star"
+      className='absolute bottom-0 right-0 w-12 md:bottom-0 md:right-40 md:w-24 z-0'
+      />
+
 
       <div className = "grid grid-cols-1 md:grid-cols-2 items-center gap-8 w-full max-w-6xl mx-auto">
         
@@ -48,19 +73,33 @@ const Hero = () => {
 
       </div>
 
-            <img 
+      <img 
       src = {NameTag}
       alt="name tag - aarshita"
       className = "block md:hidden mx-auto mt-4 -mb-10 w-20"
       />
 
+      <img 
+        src={Arrow}
+        alt="arrow"
+        className="block md:hidden mx-auto w-16 -mt-4 -mb-20 rotate-[-10deg]"
+      />
+
+
       <div className="relative flex justify-center mt-0">
         {/* Desktop: Name tag on left side of rectangle */}
+
+
         <img 
           src={NameTag}
           alt="name tag - aarshi"
           className="hidden md:block absolute -left-12 top-[40%] w-24"
         />
+
+      <img src = {Arrow}
+          alt = "arrow"
+          className='hidden md:block absolute left-[20%] top-[40%] w-20 rotate-[0deg]'
+          />
 
         {/* Rectangle image */}
         <img 
