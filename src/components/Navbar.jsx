@@ -13,7 +13,9 @@ const Navbar = () => {
             alt="logo star"
             className="w-5 h-5 hover:animate-spin-slow"
           />
-          <span className="font-bold text-black text-lg font-display pr-5">Aarshita</span>
+          <span 
+          onClick={()=> window.scrollTo({top:0, behavior:'smooth'})}
+          className="font-bold text-black text-lg font-display pr-5 cursor-pointer hover:underline">Aarshita</span>
         </div>
 
         {/* Right: Nav Links */}

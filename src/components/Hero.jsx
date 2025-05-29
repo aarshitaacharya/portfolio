@@ -57,7 +57,11 @@ const Hero = () => {
 
         <div className="flex justify-center md:justify-start mt-6">
         <div className="relative w-fit">
-          <button className="bg-white border-2 border-black text-sm md:text-base px-6 md:px-8 py-2 md:py-4 rounded-full font-semibold hover:bg-blue-200 transition-all">
+          <button 
+          onClick={() => 
+            document.getElementById("projects")?.scrollIntoView({ behavior: "smooth"})
+          }
+          className="bg-white border-2 border-black text-sm md:text-base px-6 md:px-8 py-2 md:py-4 rounded-full font-semibold hover:bg-blue-200 transition-all">
             See Aarshita's Projects
           </button>
 
