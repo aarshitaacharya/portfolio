@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+
 .projects-section {
   background-color: #fefef0;
   padding: 3rem 1rem;
