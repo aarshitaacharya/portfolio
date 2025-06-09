@@ -10,23 +10,25 @@ const Projects = () => {
     image: "https://img.icons8.com/fluency/240/ai.png",
     link: "https://github.com/aarshitaacharya/browser-agent"
   },
+    
+  {
+    title: "Notably AI",
+    description: "A modern, AI-powered workspace for your thoughts. Think better. Write faster. Collaborate smarter",
+    image: "https://img.icons8.com/?size=100&id=61864&format=png&color=000000",
+    link:"https://github.com/aarshitaacharya/notably-ai"
+  },
   {
     title: "Pixie Chat",
     description: "Chat app built with PHP, JavaScript, MySQL, and XAMPP.",
     image: "https://img.icons8.com/color/240/chat--v1.png",
     link: "https://github.com/aarshitaacharya/pixie-chat"
   },
+
   {
     title: "PEFT Techniques",
     description: "Compares LoRA, QLoRA, prompt tuning and more for efficient fine-tuning.",
     image: "https://img.icons8.com/doodle/240/settings--v1.png",
     link: "https://github.com/aarshitaacharya/peft-techniques"
-  },
-  {
-    title: "CharityConnect",
-    description: "Connects local charities with donors. Built with React Native, TypeScript, PostgreSQL. (under progress)",
-    image: "https://img.icons8.com/color/240/heart-with-arrow.png",
-    link: null // No link yet
   }
 ];
   return (
