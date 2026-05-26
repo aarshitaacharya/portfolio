@@ -226,7 +226,7 @@ function App() {
       h(
         "section",
         { className: "intro", "aria-label": "Portfolio introduction" },
-        h("p", { className: "eyebrow" }, "Aarshita Acharya"),
+        // h("p", { className: "eyebrow" }, "Aarshita Acharya"),
         h("h1", null, "Aarshita Acharya"),
         h(
           "p",
