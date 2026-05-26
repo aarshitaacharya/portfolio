@@ -201,7 +201,7 @@ a {
 .left-board {
   left: 15.5%;
   top: 9.2%;
-  width: 23.5%;
+  width: 20.5%;
   height: 20.6%;
   color: #f5e8c9;
 }
@@ -210,15 +210,15 @@ a {
   left: 67%;
   top: 9.1%;
   width: 20.8%;
-  height: 15.8%;
+  height: 20.8%;
   color: #f5e8c9;
 }
 
 .pastry-case-hotspot {
   left: 1.2%;
-  top: 42%;
+  top: 47%;
   width: 35%;
-  height: 35%;
+  height: 40%;
   align-items: end;
   padding-bottom: 18px;
   color: #5b3829;
@@ -247,9 +247,9 @@ a {
 
 .machine-hotspot {
   left: 78.5%;
-  top: 35%;
+  top: 38%;
   width: 20.5%;
-  height: 41%;
+  height: 46%;
   color: #ddf3d1;
 }
 
